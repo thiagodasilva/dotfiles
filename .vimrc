@@ -78,6 +78,10 @@ hi Folded ctermfg=6
 "Jedi-VIM
 let g:jedi#use_tabs_not_buffers = 1
 
+"Commant-T"
+let g:CommandTAcceptSelectionMap='<C-t>'
+let g:CommandTAcceptSelectionTabMap='<CR>'
+
 "------------Start Python PEP 8 stuff----------------
 " Number of spaces that a pre-existing tab is equal to.
 au BufRead,BufNewFile *py,*pyw,*.c,*.h set tabstop=4
