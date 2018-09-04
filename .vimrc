@@ -68,7 +68,7 @@ nnoremap <space> za
 let g:SimpylFold_docstring_preview = 1
 let g:SimpylFold_fold_import = 0
 let g:SimpylFold_fold_docstring = 0
-hi Folded ctermbg=8
+hi Folded ctermbg=None
 hi Folded ctermfg=6
 
 "YCM"
